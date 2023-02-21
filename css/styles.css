@@ -1,0 +1,210 @@
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #e5e5e5;
+	--primary-white-color: #ffffff;
+	--primary-links-color: #4d5ae5;
+	--primary-background-color: #2f303a;
+	--secondary-background-color: #f5f4fa;
+}
+body {
+	font-family: Roboto, sans-serif;
+	letter-spacing: 0.03em;
+}
+li {
+	list-style: none;
+}
+.link,
+.logo-primary,
+.logo-secondary,
+.logo-primary-footer,
+.logo-secondary-footer,
+.header-address,
+.footer-address,
+.footer-info,
+.main-link,
+.hero-link {
+	text-decoration: none;
+}
+header {
+	background-color: var(--primary-white-color);
+}
+.logo-primary {
+	color: var(--primary-links-color);
+	font-family: Raleway;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+.logo-secondary {
+	color: var(--title-text-color);
+	font-family: Raleway;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+.link {
+	color: var(--title-text-color);
+}
+.link:hover,
+.link:focus {
+	color: var(--primary-links-color);
+}
+.link {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.header-address {
+	color: var(--primary-text-color);
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.header-address:hover,
+.header-address:focus {
+	color: var(--primary-links-color);
+}
+.hero {
+	background-color: var(--primary-background-color);
+}
+.hero-title {
+	color: var(--primary-white-color);
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+}
+.hero-link {
+	color: var(--primary-white-color);
+	background-color: var(--primary-links-color);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	text-align: center;
+}
+.hero-link:hover,
+.hero-link:focus {
+	color: var(--primary-links-color);
+	background-color: var(--primary-white-color);
+}
+.advan {
+	background-color: var(--primary-white-color);
+}
+.advan-subtitle {
+	color: var(--title-text-color);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+.advan-text {
+	color: var(--primary-text-color);
+	font-size: 14px;
+	line-height: 1.71;
+}
+.work {
+	background-color: var(--primary-white-color);
+}
+.work-title {
+	color: var(--title-text-color);
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.17;
+	text-align: center;
+}
+.team {
+	background-color: var(--secondary-background-color);
+}
+.team-title {
+	color: var(--title-text-color);
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.17;
+	text-align: center;
+}
+.team-subtitle {
+	color: var(--title-text-color);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.19;
+	text-align: center;
+}
+.team-text {
+	color: var(--primary-text-color);
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+.footer {
+	background-color: var(--primary-background-color);
+}
+.logo-primary-footer {
+	color: var(--primary-links-color);
+	font-family: Raleway;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.19;
+}
+.logo-secondary-footer {
+	color: var(--primary-white-color);
+	font-family: Raleway;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.19;
+}
+.footer-info {
+	color: #e7e9fc;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+/* css for another classes portfolio.html */
+.portfolio {
+	background-color: var(--primary-white-color);
+}
+.filters {
+	background-color: #e7e9fc;
+	color: var(--primary-links-color);
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.63;
+	letter-spacing: 0.03em;
+}
+.filters:hover,
+.filters:focus {
+	background-color: var(--primary-links-color);
+	color: var(--primary-white-color);
+}
+.projects {
+	background-color: var(--primary-white-color);
+}
+.projects-subtitle {
+	color: var(--title-text-color);
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	text-decoration: none;
+}
+.projects-text {
+	color: var(--primary-text-color);
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.88;
+	text-decoration: none;
+}
